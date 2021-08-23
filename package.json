@@ -1,0 +1,55 @@
+{
+	"name": "field-scripts",
+	"description": "CLI to run commom scripts in my workflow",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"field-scripts": "src/index.js",
+		"scripts": "src/index.js"
+	},
+	"author": {
+		"name": "Kahlil Whitfield",
+		"email": "darkristy2002@gmail.com",
+		"url": "http://github.com/darkristy"
+	},
+	"keywords": [
+		"field-scripts",
+		"Kahlil Whitfield"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"meow": "9.0.0"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"cz-conventional-changelog": "3.3.0",
+		"eslint": "^7.8.1",
+		"eslint-config-airbnb": "^18.2.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-config-wesbos": "1.0.1",
+		"eslint-plugin-html": "^6.1.0",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-jsx-a11y": "^6.3.1",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-react": "^7.20.6",
+		"eslint-plugin-react-hooks": "^4.1.2",
+		"prettier": "^2.1.1"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}
